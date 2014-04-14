@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <conio.h>
+/* C program for addition*/
+main()
+{
+	int a=12, b=6;
+	printf ("Total is:", a+b);
+	getch();
+	return 0;
+}
