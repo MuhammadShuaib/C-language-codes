@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+	int c;
+	printf ("Enter number here:\n");
+	scanf ("%d",&c);
+	printf ("Number is=%d",c);
+	getch();
+	return 0;
+}
