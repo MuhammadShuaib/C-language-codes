@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+main()
+{
+	float r, h, cylinder, volume;
+	cylinder = 3.14;
+	printf ("Enter the radius value\n");
+	scanf ("%f",&r);
+	printf ("Enter the height value\n");
+	scanf ("%f",&h);
+	volume = cylinder * r * r * h;
+	printf ("%.2f",volume);
+	getch();
+}
+
