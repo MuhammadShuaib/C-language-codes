@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+main()
+{
+	float l, w, h, volume;
+	printf ("Enter the lenth value\n");
+	scanf ("%f",&l);
+	printf ("Enter the width value\n");
+	scanf ("%f",&w);
+	printf ("Enter the height value\n");
+	scanf ("%f",&h);
+	volume = l * w * h;
+	printf ("%.2f",volume);
+	getch();
+}
+
