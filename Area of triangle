@@ -8,6 +8,6 @@ main()
 	scanf ("%f",&b);
 	printf ("Enter the height value\n");
 	scanf ("%f",&h);
-	printf ("%.2f %.2f",h*b);
+	printf ("%.2f",h * b);
 	getch();
 }
