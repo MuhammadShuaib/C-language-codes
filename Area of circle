@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <conio.h>
+
+main()
+{
+	float r;
+	p=3.14;
+	printf ("Enter the size of Radius\n");
+	scanf ("%f",p);
+	printf ("%f");
+	getch();
+}
