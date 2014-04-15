@@ -3,10 +3,11 @@
 
 main()
 {
-	float r;
+	float r,p,area;
 	p=3.14;
 	printf ("Enter the size of Radius\n");
-	scanf ("%f",p);
-	printf ("%f");
+	scanf ("%f",&r);
+	area=p*r*r;
+	printf ("%f",area);
 	getch();
 }
